@@ -31,7 +31,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: filebeat
-  namespace: moni
+  namespace: monitoring
 roleRef:
   kind: ClusterRole
   name: filebeat
